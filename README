@@ -1,0 +1,10 @@
+Ralink RT3070 8051 ROM dumper
+
+Tested on RT3070L only.
+
+Shellcode requires to be built in order to use dump_rom.py
+
+Firmware version required: 0.36
+$ sha256sum /lib/firmware/rt2870.bin 
+251b8918391eac6415d60dca239e415aad0177e885376f2a17782e64fcbbe317  /lib/firmware/rt2870.bin
+
