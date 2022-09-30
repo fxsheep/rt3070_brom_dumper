@@ -63,6 +63,8 @@ if len(sys.argv) < 3:
 
 dev = usb.core.find(idVendor=0x148f, idProduct=0x3070)
 if (dev == None):
+    dev = usb.core.find(idVendor=0x148f, idProduct=0x2070)
+if (dev == None):
     print("No Ralink device found")
     exit()
 if dev.is_kernel_driver_active(0):
