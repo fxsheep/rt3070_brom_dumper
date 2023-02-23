@@ -1,6 +1,6 @@
-Ralink RT3070 8051 ROM dumper
+Ralink RT28xx series 8051 ROM dumper
 
-Tested on RT3070L only.
+Tested on RT3070L/RT2070/RT5372.
 
 Shellcode requires to be built in order to use dump_rom.py
 
